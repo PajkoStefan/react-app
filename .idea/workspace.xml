@@ -1,35 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56d8b7d7-198a-4319-8b68-0ea241f444ad" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="56d8b7d7-198a-4319-8b68-0ea241f444ad" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1XnI8fs68M1HJwTxY1zp1fXVc9K" />
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Repository" />
-    <property name="nodejs_interpreter_path" value="node" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XnI8fs68M1HJwTxY1zp1fXVc9K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebProjcet\React\reactapp\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2">
+        <option name="LaunchBrowser.Before.Run" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" url="http://localhost:3000/" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,11 +84,124 @@
       <updated>1581675273914</updated>
       <workItem from="1581675275126" duration="87000" />
       <workItem from="1581675362467" duration="27000" />
-      <workItem from="1581675390669" duration="265000" />
+      <workItem from="1581675390669" duration="1054000" />
+      <workItem from="1581676627266" duration="3886000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="194" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581677077220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="194" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581677077220" />
+    <state x="510" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581677125524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="510" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581677125524" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1581687015271">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581687015271" />
+    <state x="520" y="272" key="FileChooserDialogImpl" timestamp="1581676838899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="520" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581676838899" />
+    <state x="610" y="424" key="Github.ShareDialog" timestamp="1581676886846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="610" y="424" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581676886846" />
+    <state width="845" height="328" key="GridCell.Tab.0.bottom" timestamp="1581685996189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996189" />
+    <state width="845" height="328" key="GridCell.Tab.0.center" timestamp="1581685996189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996189" />
+    <state width="845" height="328" key="GridCell.Tab.0.left" timestamp="1581685996188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996188" />
+    <state width="845" height="328" key="GridCell.Tab.0.right" timestamp="1581685996189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996189" />
+    <state width="845" height="328" key="GridCell.Tab.1.bottom" timestamp="1581685996086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996086" />
+    <state width="845" height="328" key="GridCell.Tab.1.center" timestamp="1581685996086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996086" />
+    <state width="845" height="328" key="GridCell.Tab.1.left" timestamp="1581685996086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996086" />
+    <state width="845" height="328" key="GridCell.Tab.1.right" timestamp="1581685996086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996086" />
+    <state width="845" height="328" key="GridCell.Tab.2.bottom" timestamp="1581685996086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996086" />
+    <state width="845" height="328" key="GridCell.Tab.2.center" timestamp="1581685996086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996086" />
+    <state width="845" height="328" key="GridCell.Tab.2.left" timestamp="1581685996086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996086" />
+    <state width="845" height="328" key="GridCell.Tab.2.right" timestamp="1581685996086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996086" />
+    <state width="845" height="328" key="GridCell.Tab.3.bottom" timestamp="1581685996087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996087" />
+    <state width="845" height="328" key="GridCell.Tab.3.center" timestamp="1581685996087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996087" />
+    <state width="845" height="328" key="GridCell.Tab.3.left" timestamp="1581685996087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996087" />
+    <state width="845" height="328" key="GridCell.Tab.3.right" timestamp="1581685996087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="845" height="328" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581685996087" />
+    <state x="241" y="173" key="SettingsEditor" timestamp="1581677003911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="241" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581677003911" />
+    <state x="332" y="264" key="Vcs.Push.Dialog.v2" timestamp="1581676812419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="332" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581676812419" />
   </component>
 </project>
