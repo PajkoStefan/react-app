@@ -22,11 +22,11 @@ import React, {Component} from "react";
 //     );
 // };
 class Person extends Component{
-    render() {
+    render()     {
         return (
             <div className = "person">
-                <h1 ><span>Name: Stefan</span> <br /> Surname: Anastasovski</h1>
-                <p>My Age: 24</p>
+                <h1 ><span>Name: {this.props.name}</span> <br /> Surname: {this.props.name}</h1>
+                <p>My Age: {this.props.age}</p>
             </div>
         );
     }
