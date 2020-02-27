@@ -1,39 +1,68 @@
 import React, {Component} from 'react';
 import './App.css';
-// import Person from './components/Person';
-import UserInput from "./components/assignment-1/UserInput";
-import UserOutput from "./components/assignment-1/UserOutput";
+import Validation from "./components/assignment-2/Validation";
+import Char from "./components/assignment-2/Char";
 
 class App extends Component {
 
-    //5
+
     state = {
-        username: "StefanPajko2"
+        userInput: '',
+        lengthOfText: 0
+    };
+
+    //1
+    lengthOfTextHandler = (event) => {
+        this.setState({
+            userInput: event.target.value,
+            lengthOfText: event.target.value.length
+        });
     };
 
     //6
-    inputChangeHandler = (event) => {
+    deleteCharacterHandler = (index) => {
+        const text = this.state.userInput.split('');
+        text.splice(index, 1);
+        const updatedText = text.join('');
         this.setState({
-            username : event.target.value
+            userInput: updatedText
         });
     };
 
     render() {
+        let style = {
+            border: "1px solid red",
+            padding: "5px"
+        };
+        //5
+        //index is not a good key, use only for this example
+        const charList = this.state.userInput.split('').map((char, index) => {
+
+            return <Char
+                character={char}
+                key={index}
+                //6
+                clicked={() => this.deleteCharacterHandler(index)}
+            />;
+        });
+
         return (
             <div className="App">
-                {/*1-4*/}
-                <UserInput/>
-                <UserOutput paragraph1="paragraph 1" paragraph2="paragraph 2"/>
-                <UserOutput paragraph1="tralala" paragraph2="blablabla"/>
-                <UserOutput paragraph1="waaaaaaaaaa" paragraph2="zaaaaaaaaaaa"/>
-                <UserOutput paragraph1="1 text text text 1" paragraph2="2 text text text 2"/>
-                <UserOutput username="StefanPajko"/>
-
-                {/*7-8*/}
-                <UserInput changed = {this.inputChangeHandler} currentName ={this.state.username} />
-                {/*5*/}
-                <UserOutput username={this.state.username}/>
-
+                {/*1*/}
+                <input type="text"
+                       name="text"
+                       onChange={this.lengthOfTextHandler}
+                       value={this.state.userInput}
+                />
+                <p className="display-user-input" style={style}>
+                    Text:
+                    <br/>
+                    {this.state.userInput}
+                </p>
+                {/*2*/}
+                <Validation lengthOfText={this.state.lengthOfText}/>
+                {/*4*/}
+                {charList}
             </div>
         )
     }
