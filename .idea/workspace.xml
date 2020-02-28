@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56d8b7d7-198a-4319-8b68-0ea241f444ad" name="Default Changelist" comment=". add config folder {npm run eject}">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+    <list default="true" id="56d8b7d7-198a-4319-8b68-0ea241f444ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Person/style.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Person/Person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Person/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +101,7 @@
       <workItem from="1582849402974" duration="144000" />
       <workItem from="1582849669524" duration="1049000" />
       <workItem from="1582903521297" duration="3764000" />
-      <workItem from="1582911999813" duration="6616000" />
+      <workItem from="1582911999813" duration="7709000" />
     </task>
     <task id="LOCAL-00001" summary="first functional component without params - cards">
       <created>1581687235218</created>
@@ -194,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582915972794</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="CSS Modules">
+      <created>1582918853191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582918853191</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +220,8 @@
     <MESSAGE value="using Radim for Media Queries" />
     <MESSAGE value="styled components &amp; dynamic styles" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="CSS Modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS Modules" />
   </component>
   <component name="WindowStateProjectService">
     <state x="194" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581677077220">
@@ -243,10 +237,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582814522048" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1582916044973">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1582918850883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582916044973" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582918850883" />
     <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581689646648" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1582915953916">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -332,14 +326,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="241" y="173" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581677003911" />
-    <state x="332" y="264" key="Vcs.Push.Dialog.v2" timestamp="1582818691231">
+    <state x="332" y="264" key="Vcs.Push.Dialog.v2" timestamp="1582918866199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="332" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582818691231" />
+    <state x="332" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582918866199" />
     <state x="332" y="264" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581689664793" />
-    <state x="89" y="241" key="run.anything.popup" timestamp="1581689440612">
+    <state x="89" y="241" key="run.anything.popup" timestamp="1582919206925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="89" y="241" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582919206925" />
     <state x="89" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581689440612" />
     <state x="197" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1582745600195">
       <screen x="0" y="0" width="1920" height="1040" />
