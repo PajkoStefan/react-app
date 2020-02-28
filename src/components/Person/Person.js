@@ -1,35 +1,15 @@
-import React, {Component} from "react";
+import React from "react";
+import './style.css';
+import Radium from 'radium';
 
-// function Person() {
-//
-//     return (
-//         <div class="person">
-//             <h1>Stefan Anastasovski</h1>
-//             <p>Your Age: 24</p>
-//         </div>
-//     );
-// }
+const Person = (props) => {
+    return (
+        <div className="person">
+            <p onClick={props.click}>I'm {props.name} and I am {props.age} years old!</p>
+            <p>{props.children}</p>
+            <input type="text" onChange={props.changed} value={props.name}/>
+        </div>
+    );
+};
 
-//or es6
-
-// export const Person = ....
-// const Person = (props) => {
-//     return (
-//         <div className = "person">
-//             <h1 ><span>Name: {props.name}</span> <br /> Surname: {props.surname}</h1>
-//             <p>My Age: {props.age}</p>
-//         </div>
-//     );
-// };
-class Person extends Component{
-    render()     {
-        return (
-            <div className = "person">
-                <h1 ><span>Name: {this.props.name}</span> <br /> Surname: {this.props.name}</h1>
-                <p>My Age: {this.props.age}</p>
-            </div>
-        );
-    }
-}
-
-export default Person;
+export default Radium(Person);
