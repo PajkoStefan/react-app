@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56d8b7d7-198a-4319-8b68-0ea241f444ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Person/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Person/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Person/Person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Person/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Person/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,7 @@
       <workItem from="1582849321608" duration="57000" />
       <workItem from="1582849402974" duration="144000" />
       <workItem from="1582849669524" duration="1049000" />
-      <workItem from="1582903521297" duration="2538000" />
+      <workItem from="1582903521297" duration="3156000" />
     </task>
     <task id="LOCAL-00001" summary="first functional component without params - cards">
       <created>1581687235218</created>
@@ -155,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582817519873</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding and using npm packet - Radium">
+      <created>1582908375125</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582908375125</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,26 +187,27 @@
     <MESSAGE value="first class component - Person with params" />
     <MESSAGE value="assignment 1" />
     <MESSAGE value="assignment 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment 2" />
+    <MESSAGE value="adding and using npm packet - Radium" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding and using npm packet - Radium" />
   </component>
   <component name="WindowStateProjectService">
     <state x="194" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581677077220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="194" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581677077220" />
-    <state x="510" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582906574983">
+    <state x="510" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582908876572">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="510" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582906574983" />
+    <state x="510" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582908876572" />
     <state x="510" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581677125524" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582814522048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582814522048" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1582817518725">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1582908373471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582817518725" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1582908373471" />
     <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581689646648" />
     <state x="520" y="272" key="FileChooserDialogImpl" timestamp="1582193648138">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -4,6 +4,7 @@ import './App.css';
 // import Char from "./components/assignment-2/Char";
 import Person from "./components/Person/Person";
 import Radium from "radium";
+import StyleRoot from "radium/es/components/style-root";
 
 class App extends Component {
 
@@ -95,16 +96,18 @@ class App extends Component {
         }
 
         return (
-            <div className="App">
-                <h1>Hi, I'm a React App</h1>
-                <p className={classes.join(' ')}>This is really working!</p>
-                <button
-                    style={style}
-                    onClick={this.togglePersonsHandler}>
-                    Toggle Persons
-                </button>
-                {persons}
-            </div>
+            <StyleRoot>
+                <div className="App">
+                    <h1>Hi, I'm a React App</h1>
+                    <p className={classes.join(' ')}>This is really working!</p>
+                    <button
+                        style={style}
+                        onClick={this.togglePersonsHandler}>
+                        Toggle Persons
+                    </button>
+                    {persons}
+                </div>
+            </StyleRoot>
         );
 
     }

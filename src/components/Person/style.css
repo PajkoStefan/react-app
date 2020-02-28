@@ -6,3 +6,9 @@
     padding: 16px;
     text-align: center;
 }
+/*1 way*/
+/*@media(min-width:550px){*/
+/*    .person{*/
+/*        width:550px;*/
+/*    }*/
+/*}*/
